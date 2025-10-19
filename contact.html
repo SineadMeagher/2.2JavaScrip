@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Página: contacto y formulario -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contacto - Feria Aventura & Montaña 2025</title>
+        <link rel="stylesheet" href="estilos/estilos.css" />
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.png" alt="Logo Feria Aventura" class="logo" />
+            <h1>Contacto</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre la feria</a></li>
+                    <li><a href="exhibitors.html">Expositores</a></li>
+                    <li><a href="schedule.html">Programa</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <section>
+                <h2>Formulario de contacto</h2>
+                <form action="mailto:smeagher@birt.eus" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required="required" />
+
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required="required" />
+
+
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" />
+
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <p>También puedes escribirnos a <a href="mailto:smeagher@birt.eus">smeagher@birt.eus</a>.</p>
+		<form onsubmit="return validarFormulario()">
+ 		   <label for="nombre">Nombre:</label>
+ 		   <input type="text" id="nombre" placeholder="Tu nombre">
+
+ 		   <label for="email">Email:</label>
+ 		   <input type="email" id="email" placeholder="Tu correo electrónico">
+
+ 		   <input type="submit" value="Enviar">
+		</form>
+            </section>
+        </main>
+
+
+        <footer>
+            <p>© 2025 Feria Aventura & Montaña</p>
+        </footer>
+        <!-- Aquí enlazas el archivo JS -->
+	<script src="funciones/funciones.js"></script>
+    </body>
+</html>

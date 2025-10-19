@@ -1,0 +1,121 @@
+/* Estilo nórdico limpio con colores naturales y vibrantes */
+:root {
+    --calamine-blue: #b3dee2;
+    --cream-yellow: #fff7d6;
+    --granadine-pink: #ee6c7c;
+    --turquoise-green: #7fc7af;
+    --grayish-lavender: #c7c9e3;
+    --raw-sienna: #cc7a4d;
+    --text-color: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: var(--cream-yellow);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--calamine-blue);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 4px solid var(--granadine-pink);
+}
+.logo {
+    width: 70px;
+    height: auto;
+}
+h1 {
+    font-size: 1.6rem;
+    color: var(--raw-sienna);
+    margin: 0.2rem 0;
+}
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+nav .menu li a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+nav .menu li a:hover {
+    background-color: var(--granadine-pink);
+    color: white;
+}
+
+main {
+    padding: 1.5rem;
+    background-color: white;
+}
+section {
+    margin-bottom: 1.5rem;
+}
+h2, h3 {
+    color: var(--turquoise-green);
+}
+.hero {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.small {
+    width: 240px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+th, td {
+    border: 1px solid var(--grayish-lavender);
+    padding: 8px;
+}
+th {
+    background-color: var(--turquoise-green);
+    color: white;
+}
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 480px;
+}
+input, textarea {
+    border: 1px solid var(--grayish-lavender);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1rem;
+}
+button {
+    background-color: var(--granadine-pink);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: var(--raw-sienna);
+}
+footer {
+    background: var(--grayish-lavender);
+    text-align: center;
+    p
