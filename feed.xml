@@ -14,7 +14,6 @@
     <language>es</language>
     <pubDate>Fri, 14 Nov 2025 12:00:00 GMT</pubDate>
     <lastBuildDate>Fri, 14 Nov 2025 12:00:00 GMT</lastBuildDate>
-    <generator>Lumo (Proton)</generator>
 
     <!-- ITEM 1 – Novedad en about.html -->
     <item>
@@ -37,4 +36,5 @@
     </item>
 
   </channel>
+
 </rss>
