@@ -4,7 +4,7 @@
     <title>Altair Travel Fest 2025 – Novedades</title>
     <link>https://sineadmeagher.github.io/2.2JavaScrip/</link>
 
-    <!-- Enlace ATOM que apunta al propio feed (recomendado) -->
+    <!-- Enlace ATOM que apunta al propio feed -->
     <atom:link href="https://sineadmeagher.github.io/2.2JavaScrip/feed.xml"
                rel="self"
                type="application/rss+xml"
@@ -38,3 +38,4 @@
   </channel>
 
 </rss>
+
